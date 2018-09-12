@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#frame{
+    transition: margin 2s;
+    display: flex;/*horizontal position*/
+    justify-content: flex-start;
+    background-color: #fdcb6e;
+    height: 40px;
+    margin-top: -30px;
+
+}
+
+.far{
+    padding: 3px 5px 5px 5px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+#frame:hover {
+    height: 40px;
+    margin-top: 0px;
+}
+
+
+#max:hover{
+    background-color: #ffeaa7;
+    color:#d63031;
+}
+#min:hover{
+    background-color: #ffeaa7;
+    color:#d63031;
+}
+
+#close:hover{
+    background-color: #d63031;
+    color:#ffeaa7;
+}
+
+/*part2*/
+
+div#imageSelector{
+    cursor: pointer;
+    align-self:stretch;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:6vw;
+    color:#f0932b;
+}
+
+div#dragDrop{
+    height: 40vw;
+    width: 50vw;
+    display: flex;
+    flex-direction:column;
+    border:4px dotted #f0932b ;
+    justify-content: center;
+    align-items: center;
+    font-size:3vw;
+}
+
+/*part2*/
+div#main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+/*part2*/
+div#window{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #535c68;
+}
